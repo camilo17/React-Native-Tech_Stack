@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Text} from 'react-native';
-import {CardSection} from './common/CardSection';
+import {CardSection} from './common';
+import * as actions from '../actions/index';
 
 class ListItem extends Component {
     render() {
@@ -17,7 +18,7 @@ class ListItem extends Component {
 }
 
 const styles = {
-    titleStyle = {
+    titleStyle : {
         fontSize : 18,
         paddingLeft : 15
     }
